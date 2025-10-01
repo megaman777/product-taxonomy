@@ -9,7 +9,7 @@ gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: [:windows, :jruby]
 
 gem "bootsnap", require: false
-gem "rubocop-shopify", require: false
+gem "rubocop-shopify", ">= 2.16.0", require: false
 
 # docs
 gem "jekyll", "~> 4.3"
