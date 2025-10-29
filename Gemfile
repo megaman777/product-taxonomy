@@ -27,6 +27,6 @@ gem 'dotenv', groups: [:development, :test]
 group :development, :test do
   gem "debug", platforms: [:mri, :windows]
   gem "mocha"
-  gem "factory_bot_rails", "~> 6.4"
+  gem "factory_bot_rails", "~> 6.4", ">= 6.4.4"
   gem "minitest-hooks", "~> 1.5"
 end
